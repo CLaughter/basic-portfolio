@@ -137,6 +137,63 @@ textarea, input {
   background-color: green;
   border-radius: 10px;
   font-size: large;
-
 }
+
+footer {
+  height: 20px;
+  font-size: small;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Media Query */
+@media screen and (max-width: 980px) {
+  .container {
+    width: 100%
+  }
+  name,
+  nav,
+  full {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%
+  }
+  name,
+  nav,
+  full {
+    width: 100%;
+  }
+}
+
+/* Static header */
+@media screen and (max-width: 640px) {
+  .container {
+    width: 100%;
+    /* padding: 5px; */
+  }
+
+  header {
+    position: static;
+  }
+
+  nav,
+  name, 
+  full {
+    width: 100%;
+    padding-left: 0;
+  }
+  
+}
+
+footer {
+  position: static;
+}
+
+
+
  
